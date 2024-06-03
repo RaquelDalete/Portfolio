@@ -4,11 +4,16 @@ import styled from 'styled-components';
 //----ESTILIZAÇÃO DA NAVEGAÇÃO
 
 export const Nav = styled.nav`
+width: 100vw;
+
+@media (min-width: 320px) and (max-width: 768px){
+        height: 30vh;
+    }
 `;
 
 export const Lista = styled.ul`
 width: 100%;
-background-color:#0c3e11;
+background-color:#2d2a2a;
 display: flex;
 justify-content: space-around;
 list-style: none;
@@ -17,7 +22,7 @@ align-items: center;
 @media (min-width: 320px) and (max-width: 768px){
     display: flex; 
     flex-direction: column;
-    height: 40vh;
+    height: 30vh;
     
 }
 
@@ -26,7 +31,14 @@ a{
     text-decoration: none;
     text-transform: uppercase;
     font-size: 1.5rem;
-    color:#e8e9c8;
+    color:#f6f6f4;
+    font-family: "Montserrat Alternates", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+
+  @media (min-width: 320px) and (max-width: 768px){
+        font-size:1rem;
+    }
 
 }
 
@@ -45,15 +57,36 @@ export const SectionInicio = styled.main`
 display: flex;
 width:100vw;
 height:100vh;
-background-color:#ad9571;
+background-color:#2d2a2a;
 justify-content:space-evenly;
 align-items: center;
 padding-top: 3rem;
-h2{
-    color:#e8e9c8;
 
+@media (min-width: 320px) and (max-width: 768px){
+        height: 120vh;
+    }
+h2{
+    color:#c8a6c2;
+    margin: 1rem;
+    font-family: "Montserrat Alternates", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+  
     @media (min-width: 320px) and (max-width: 768px){
         font-size:1rem;
+    }
+    
+
+}
+
+h1{
+    font-size: 4rem;
+    font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+
+  @media (min-width: 320px) and (max-width: 768px){
+        font-size:2rem;
     }
 }
 
@@ -61,16 +94,12 @@ h2{
   display: flex;
   flex-direction: column;
   text-align:center;
-
-img{
-    width:50vw;
 }
-`;
+`
 
 export const Img = styled.img`
-width:2vw;
-margin:1rem;
-
+margin:2rem;
+margin-top: 12rem;
 `;
 
 export const ContainerDivs = styled.section`
@@ -80,8 +109,8 @@ justify-content: space-evenly;
 align-items:center;
 width:50vw;
 height:40vh;
-background-color:#51684c;
-border-radius:20px;
+margin: 1rem;
+
 
 
 @media(min-width: 320px) and (max-width: 768px)
@@ -122,11 +151,11 @@ display: flex;
 justify-content: space-evenly;
 align-items:center;
 flex-wrap:wrap;
- background-color:#ad9571;
+background-color:#2d2a2a;
 height:150vh;
 
 @media(min-width: 320px) and (max-width: 768px){
-    height:450vh;
+    height:410vh;
     display:flex;
 flex-direction:column;
 `;
@@ -134,13 +163,18 @@ flex-direction:column;
 export const SectionDoSobre = styled.section`
 height: 70vh;
 width: 30vw;
-background-color:#495738;
+background-color:#2d2a2a;
 margin-top: 3rem;
 border-radius: 50px;
+border: solid 0.5rem  #4c1040;
 padding:1rem;
 h2{
     text-align: center;
-    
+    font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+
 }
 
 
@@ -148,13 +182,13 @@ h2{
     height:90vh;
     width:50vw;
   h2{
-      font-size:1.2rem;
+      font-size:1em;
   }
 }
 
 @media(min-width: 320px) and (max-width: 768px){
     h3{
-        font-size:1.2rem; 
+        font-size:1rem; 
     }
 }
 
@@ -180,12 +214,20 @@ align-items: center;
 justify-content: space-evenly;
 height: 20vh; 
 h2{
-    color: #e8e9c8;
+    color: #c8a6c2;;
     margin:1rem;
+    font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
 }
 
 h3{
-    color: #e8e9c8;
+    color: #c8a6c2;;
+    font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
 }
 
 img{
@@ -211,7 +253,11 @@ div{
     align-items: center;
 }
 h3{
-    color:#e8e9c8;
+    color:#c8a6c2;;
+    font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
 
 @media(min-width: 320px) and (max-width: 768px){
     font-size:1.2rem;
@@ -219,7 +265,7 @@ h3{
 }
 
 img{
-    width:5vw;
+    width:4vw;
     margin:0.3rem;
 
 @media(min-width: 320px) and (max-width: 768px){
@@ -233,8 +279,12 @@ img{
 
 export const DivCard3 = styled.div`
 li{
-    color:#e8e9c8;
+    color:#c8a6c2;;
     font-size:1.3rem;
+    font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
     
     @media(min-width: 320px) and (max-width: 768px){
        margin:1rem;
@@ -252,7 +302,8 @@ color:black;
 
 export const SectionPA =styled.section`
 
-background-color: #495738;
+background-color: #2d2a2a;
+border: solid 1rem #4c1040;
 
 
 `
@@ -268,64 +319,97 @@ height: 50vh;
 padding:4rem;
 
 h1{
-    color:#e8e9c8;
+    color:#c8a6c2;;
+    font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
 }
 
 @media(min-width: 320px) and (max-width: 768px){
-  height:100vh;
+  height:80vh;
 }
 `
 export const P = styled.p`
 font-size:1rem;
-color:#e8e9c8;
+color:#c8a6c2;;
+font-family: "Arvo", serif;
+  font-weight: 400;
+  font-style: normal;
 
 
 @media(min-width: 320px) and (max-width: 768px){
     font-size:0.8rem;
+    text-align: center;
 }
 `
 
 // ESTILIZANDO PROJETOS--------------------------
 
 export const SectionP = styled.section`
-height:80%;
+height:100%;
 width:100%;
- background-color:#ad9571;
+ background-color:#2d2a2a;
+ display: flex;
+    flex-wrap:wrap;
+    justify-content: space-evenly;
+
+    @media (min-width: 320px) and (max-width: 768px){
+        height: 190vh;
+    }
 
 
 img{
-    width:30vw;
+    width:20vw;
 
     @media(min-width: 320px) and (max-width: 768px){
         widht:50vw;
     }
 }
-@media(min-width: 320px) and (max-width: 768px){
+
 h2{
-    font-size:1rem;
-    color:#e8e9c8;
-}
-}
+    font-size:1.2rem ;
+    color:#f6f6f1;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+
 @media(min-width: 320px) and (max-width: 768px){
-   h3{
-       font-size:1rem;
-       color:#e8e9c8;
-   }
+
+    font-size:1rem;
+}
+}
+
+h3{
+    font-size:1rem ;
+    color:#c8a6c2;
+    margin: 1rem;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+
+@media(min-width: 320px) and (max-width: 768px){
+
+    font-size:0.8rem;
+    text-align: center;
+    
+}
 }
 
 `
 
 export const Div = styled.div`
-widht:10vw;
-height:50vh;
 display:flex;
 flex-direction: column;
 align-items:center;
+flex-wrap: wrap;
+padding: 1rem;
 
 `
 export const ImgP = styled.img`
 margin-top:2rem;
-
 
 `
 

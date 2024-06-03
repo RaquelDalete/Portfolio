@@ -12,8 +12,9 @@ function Inicio() {
 
       <S.ContainerDivs> 
       <S.BoxInicio>
-        <h2>Olá, eu sou a Raquel Dálete. </h2>
-        <h2>Venham navegar pelo o meu Portfólio.</h2>
+        <h2>Olá, eu sou a Raquel Dálete </h2>
+        <h1>Desenvolvedora Front-End</h1>
+        <h2>Venham navegar pelo o meu Portfólio</h2>
       </S.BoxInicio>
 
       <div>
@@ -22,6 +23,7 @@ function Inicio() {
       </div>
       </S.ContainerDivs> 
     </S.SectionInicio>
+   
   );
 }
 

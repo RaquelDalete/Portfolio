@@ -28,12 +28,12 @@ function Sobre() {
           <S.DivCard2>
             <div>
               <img src={Css} alt="logo css3" />
-              <h3>Css</h3>
+              <h3>Css3</h3>
             </div>
 
             <div>              
               <img src={Html} alt="logo html5" />
-              <h3>Html</h3>
+              <h3>Html5</h3>
             </div>
 
             <div>              
@@ -72,7 +72,7 @@ function Sobre() {
       <S.SectionPA>
       <S.DivCard4>
         <h1>Um pouco sobre mim</h1>
-        <S.P>Olá, me chamo Raquel Dálete tenho 27 anos, sou natural do Distrito Federal. Sou casada com o Gustavo, tenho 2 filhos (Sírius e Noah), sou Empreendedora há 2 anos e 4 meses, faço doces para a empresa Doces Bright que eu e meu esposo fundamos em dezembro de 2021. Como CLT eu trabalhei com atendimento ao público, algumas das funções que executei foram: Vendedora, Caixa e Recepcionista. Sempre tive facilidade em me comunicar e gerar conexão. Movida por motivos de buscar mais estabilidade financeira e aprender algo novo me deparei com a área da tecnologia e através do Vai na Web, pude descobrir uma carreira que me identifico, que posso crescer e ampliar meus horizontes. Minha maior realização é estar presente na vida dos meus filhos e poder oferecer a eles as melhores experiências, estou focada em ser minha melhor versão e poder alcançar minhas metas. Meu foco no momento é me especializar como Desenvolvedora Front-End e design responsivo. Desistir não é uma opção, Vamos pra cima!!</S.P>
+        <S.P>Olá, me chamo Raquel Dálete tenho 27 anos, sou natural do Distrito Federal. Casada com o Gustavo, tenho 2 filhos (Sírius e Noah), sou Empreendedora há 2 anos e 5 meses, faço doces para a empresa Doces Bright que eu e meu esposo fundamos em dezembro de 2021. Como CLT eu trabalhei com atendimento ao público, algumas das funções que executei foram: Vendedora, Caixa e Recepcionista. Sempre tive facilidade em me comunicar e gerar conexão. Movida por motivos de buscar mais estabilidade financeira e aprender algo novo me deparei com a área da tecnologia e através do Vai na Web, pude descobrir uma carreira que me identifico, que posso crescer e ampliar meus horizontes. Minha maior realização é estar presente na vida dos meus filhos e poder oferecer a eles as melhores experiências, estou focada em ser minha melhor versão e poder alcançar minhas metas. Meu foco no momento é me especializar como Desenvolvedora Front-End e Design Responsivo. Desistir não é uma opção, Vamos pra cima!!</S.P>
         </S.DivCard4>
       </S.SectionPA>
     </S.MainSobre>
